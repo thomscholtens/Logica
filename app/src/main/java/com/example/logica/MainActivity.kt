@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun check() {
+        
         if (textInput1.text.toString() == "T" && textInput2.text.toString() == "F" && textInput3.text.toString() == "F"
             && textInput4.text.toString() == "F") {
             Toast.makeText(this, getString(R.string.correct), Toast.LENGTH_SHORT).show()
